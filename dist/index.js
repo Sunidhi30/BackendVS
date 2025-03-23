@@ -81,5 +81,5 @@ app.use("/forgot-password", userRoutes_1.default);
 // Use upload route
 app.use('/admin/upload', upload_1.default); // Uncomment to use the upload route
 app.listen(PORT, () => {
-    console.log(`http://localhost:${PORT}`);
+    console.log(` https://backendvs-2.onrender.com:${PORT}`);
 });
